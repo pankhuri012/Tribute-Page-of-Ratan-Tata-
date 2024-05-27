@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    color: rgb(255, 230, 230);
+    background-color: black;
+
+}
+.container{
+    max-width: 90rem;
+    margin: 2rem auto;
+    padding: 0px 2rem;
+}
+
+.header{
+    padding: 2rem;
+    margin : 1rem 0px;
+    text-align: center;
+}
+
+.header > .title{
+    margin-bottom: 1rem;
+}
+.title   > .description{
+    margin-bottom: 0%;
+}
+
+.tribute{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 78rem;
+    margin: 0px auto;
+    background: rgb(220 194 181);
+    color: black;
+    align-items: center;
+    padding: 0px 0px 0px 0px;
+
+}
+
+.tribute blockquote{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.tribute img{
+    max-width: 100%;
+    padding: 4px;
+}
+
+/* .bio{
+   
+    margin: 2rem;
+    padding: 0px 0px 5rem;
+    max-width: 40rem;
+    border: 2px solid white;
+} */
+.bio{
+    max-width: 60rem;
+    margin: 2rem auto;
+    padding: 0px 2rem;
+}
+.bio p{
+    text-align: center;
+    align-items: center;
+}
+.Biography{
+    /* align-items: center;a */
+    text-align: center;
+}
+
+.bio > p{
+   font-size: 1.2rem;
+   line-height: 1.4; 
+}
+#bottom{
+    margin: 16px;
+}
+
+/* .bio > .hr{
+    margin: 5px;
+} */
+
+
+/* rgb(220 194 181) */
